@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "robotoregular";
+	color: #212121;
+}
+.cierre{
+	clear: both;
+}
+.icono{
+	width: 23px;
+	cursor: pointer;
+}
+.btn{
+	border: none;
+	background-color: #212121;
+	color: #fafafa;
+	border-radius: 3px;
+	padding: 1% 4%;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: #000;
+}
+#fondoOscuro{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7);
+	cursor: pointer;
+}
+.lightbox{
+	display: none;
+	position: fixed;
+	background-color: #fafafa;
+	border-radius: 3px;
+	padding: 1%;
+	top: 15%;
+}
+
+
+/*CARRITO*/
+
+#carrito{
+	width: 50%;
+	left: 25%;
+	max-height: 70%;
+	overflow-y: auto;
+}
+
+
+/*LOGIN*/
+
+#login{
+	width: 60%;
+	left: 20%;
+	max-height: 70%;
+	overflow-y: auto;
+}
+#login form{
+	display: inline-block;
+	width: 49%;
+	vertical-align: top;
+	font-size: 1.1em;
+	padding: 2%;
+}
+#login form:nth-child(2){
+	border-left: 1px solid #212121;
+	padding-left: 3%;
+}
+#login form h3{
+	margin-bottom: 4%;
+}
+#login form label{
+	display: inline-block;
+	width: 30%;
+	margin: 3% 0 3% 3%;
+}
+#login form input, #login form button{
+	font-size: 1em;
+}
+#login .btn{
+	float: right;
+	margin-top: 8%;
+	margin-right: 3%;
+}
+
+
+/*CUENTA*/
+
+#cuenta{
+	width: 50%;
+	left: 25%;
+}
+
+
+/*CABECERA*/
+
+header{
+	width: 100;
+	background-color: #212121;
+	color: #fafafa;
+	box-shadow: 0 0 15px rgba(0, 0, 0, .4);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#logo{
+	font-size: 3.5em;
+	color: #fafafa;
+	font-weight: normal;
+	display: inline-block;
+	margin: .3% 0 .3% 4%;
+}
+
+
+/*MENU*/
+
+nav{
+	display: inline-block;
+	width: 40%;
+	float: right;
+	margin-right: 8%;
+}
+nav .icono{
+	margin-right: 7%;
+}
+nav ul{
+	display: inline-block;
+	width: 100%;
+}
+nav ul li{
+	display: inline-block;
+	width: 30%;
+	text-align: center;
+	cursor: pointer;
+}
+nav ul li a{
+	color: #fafafa;
+	text-decoration: none;
+	display: block;
+	padding: 14% 3%;
+}
+nav ul li a:hover{
+	border-bottom: 2px solid #fafafa;
+}
+#inicio nav ul li:nth-child(1) a, #galeria nav ul li:nth-child(2) a, #contacto nav ul li:nth-child(3) a{
+	border-bottom: 2px solid #fafafa;
+}
+#iconoCarrito{
+	float: right;
+	margin: 2.2% 4% 0 0;
+	padding-bottom: 1.6%;
+}
+#iconoCarrito:hover{
+	border-bottom: 2px solid #fafafa;
+}
+#iniciarSesion, #sesionIniciada{
+	float: right;
+	margin: 2.2% 4% 0 0;
+	padding-bottom: 1.6%;
+	color: #fafafa;
+	text-decoration: none;
+	cursor: pointer;
+}
+#iniciarSesion:hover, #sesionIniciada:hover{
+	border-bottom: 1px solid #fafafa;
+}
+
+
+/*CUERPO*/
+
+/*INICIO*/
+
+#imgInicio{
+	background-image: url("../img/inicio.jpg");
+	height: 550px;
+	background-size: 100%;
+}
+#contenedor{
+	padding: 1%;
+	-moz-column-count: 3;
+	-moz-column-gap: 1%;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 10px;
+	column-count: 3;
+	column-gap: 1%;
+	background-color: #ddd;
+}
+#contenedor article{
+	display: inline-block;
+	width: 100%;
+	background-color: #fafafa;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+#contenedor article img{
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+}
+#contenedor article h2{
+	color: #212121;
+	margin: 1% 0 1% 5%;
+	display: inline-block;
+}
+#contenedor article button{
+	float: right;
+	margin: 2% 5% 2% 0;
+}
+
+
+/*PIE*/
+
+
+/*RESPONSIVE*/
